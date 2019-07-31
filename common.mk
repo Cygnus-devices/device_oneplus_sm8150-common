@@ -168,6 +168,9 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 # Bluetooth
+include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
+$(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
+
 PRODUCT_PACKAGES += \
     liba2dpoffload \
     libbthost_if \
