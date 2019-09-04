@@ -168,11 +168,11 @@ TARGET_SCREEN_DENSITY := 360
 VENDOR_SECURITY_PATCH := 2020-11-01
 
 # SELinux
-include device/qcom/sepolicy_vndr/SEPolicy.mk
-
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/private
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/public
-BOARD_VENDOR_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
+#include device/qcom/sepolicy_vndr/SEPolicy.mk
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/private
+#BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/public
+#BOARD_VENDOR_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy-minimal
 
 # Sensors
 SOONG_CONFIG_NAMESPACES += ONEPLUS_MSMNILE_SENSORS
