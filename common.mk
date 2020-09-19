@@ -461,7 +461,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(SRC_MEDIA_HAL_DIR) \
     $(SRC_DISPLAY_HAL_DIR) \
     $(SRC_AUDIO_HAL_DIR) \
-    device/oneplus/common
+    device/oneplus/common \
+    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
