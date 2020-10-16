@@ -447,7 +447,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     device/oneplus/common \
     hardware/qcom-caf/sm8150 \
-    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
+    vendor/qcom/opensource/commonsys/system/bt/conf
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
