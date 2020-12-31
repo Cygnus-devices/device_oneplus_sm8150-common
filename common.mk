@@ -150,9 +150,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl:64 \
     android.hardware.boot@1.0-service \
-    android.hardware.boot@1.0-impl.recovery \
-    bootctrl.msmnile \
-    bootctrl.msmnile.recovery
+    android.hardware.boot@1.0-impl.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
