@@ -487,4 +487,8 @@
     <!-- Allow the gesture power + volume up to change the ringer mode while the device
           is interactive. -->
     <bool name="config_volumeHushGestureEnabled">false</bool>
+
+    <!-- Hide FOD while Going to sleep from lockscreen to avoid HBM flicker
+	 or FOD Circle hiding after the screen is put to sleep -->
+    <bool name="config_hideFodCircleGoingToSleep">true</bool>
 </resources>
