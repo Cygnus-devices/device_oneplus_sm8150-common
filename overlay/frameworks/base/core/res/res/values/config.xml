@@ -491,4 +491,7 @@
     <!-- Hide FOD while Going to sleep from lockscreen to avoid HBM flicker
 	 or FOD Circle hiding after the screen is put to sleep -->
     <bool name="config_hideFodCircleGoingToSleep">true</bool>
+
+    <!-- OEM charger path node-->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
 </resources>
