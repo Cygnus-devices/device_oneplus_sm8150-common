@@ -422,6 +422,9 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+PRODUCT_PACKAGES += \
+    libjson
+
 # Vendor libstdc++
 PRODUCT_PACKAGES += \
     libstdc++.vendor
