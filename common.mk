@@ -453,14 +453,16 @@ PRODUCT_HOST_PACKAGES += \
     signapk
 
 # Soong namespaces
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sm8150/media
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sm8150/display
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sm8150/audio
+SRC_MEDIA_HAL_DIR := hardware/qcom/media
+SRC_DISPLAY_HAL_DIR := hardware/qcom/display
+SRC_AUDIO_HAL_DIR := vendor/qcom/opensource/audio-hal/primary-hal
 
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    device/oneplus/common \
-    hardware/qcom-caf/sm8150
+    $(SRC_MEDIA_HAL_DIR) \
+    $(SRC_DISPLAY_HAL_DIR) \
+    $(SRC_AUDIO_HAL_DIR) \
+    device/oneplus/common
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
