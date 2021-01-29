@@ -174,7 +174,8 @@ $(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-syste
 PRODUCT_PACKAGES += \
     liba2dpoffload \
     libbthost_if \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
