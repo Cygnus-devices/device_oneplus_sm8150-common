@@ -401,6 +401,12 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     oneplus-fwk.oneplus_msmnile
+    
+# Perf
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    QXPerformance \
+    UxPerformance
 
 # Power
 PRODUCT_PACKAGES += \
