@@ -1242,10 +1242,17 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Servicetracker
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.0-service
-vendor/etc/init/vendor.qti.hardware.servicetracker@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.servicetracker@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.0-impl.so
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
+vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
+-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
+vendor/lib/vendor.qti.hardware.servicetracker@1.0.so
+vendor/lib/vendor.qti.hardware.servicetracker@1.1.so
+vendor/lib/vendor.qti.hardware.servicetracker@1.2.so
+vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
+vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
+vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
+vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
 # Snapdragon Computer Vision Engine
 product/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
