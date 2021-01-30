@@ -448,8 +448,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.0.vendor
 
 # Soong namespaces
+SRC_MEDIA_HAL_DIR := hardware/qcom/media
+SRC_DISPLAY_HAL_DIR := hardware/qcom/display
+SRC_AUDIO_HAL_DIR := vendor/qcom/opensource/audio-hal/primary-hal
+
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    $(SRC_MEDIA_HAL_DIR) \
+    $(SRC_DISPLAY_HAL_DIR) \
+    $(SRC_AUDIO_HAL_DIR) \
     device/oneplus/common
 
 # Remove unwanted packages
